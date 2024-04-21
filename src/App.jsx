@@ -9,7 +9,7 @@ function App() {
  
 
 
-const apiURL = "https://www.boredapi.com/api/activity?limit=1";
+const apiURL = "https://www.boredapi.com/api/activity";
 
 useEffect(() => { 
   
@@ -47,12 +47,12 @@ fetchData();
   return (
     <>
 
-         <div >
+         <div className='card'>
          <ul>
 
-        <ol><h1>Activity: {activity}</h1></ol>  
-        <ol><p>Type: {type}</p></ol>  
-        <ol> <p>Participants: {participants}</p> </ol>   
+       <h1>Activity: {activity}</h1> 
+        <h2>Type: {type}</h2>
+         <h3>Participants: {participants}</h3> 
     
         </ul>
 

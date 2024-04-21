@@ -34,9 +34,18 @@
 }
 
 .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #db6c6c;
+  border-radius: 20px;
+  
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+ul { 
+padding: 20px;
+text-align: center;
+
 }
